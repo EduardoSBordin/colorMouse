@@ -1,0 +1,47 @@
+body{
+
+    background-color: aliceblue;
+}
+#main{
+
+    background-color: rgba(128, 128, 128, 0);
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 160px;
+    justify-content: space-around;
+    padding: 100px;
+}
+#circle_red, #circle_green, #circle_blue{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#circle_red:hover , #circle_green:hover , #circle_blue:hover{
+
+    transform: scale(1.2);
+    border-radius: 25%;
+}
+#circle_red{
+
+    background-color: rgb(200, 0, 0);
+    float: left;
+}
+#circle_green{
+
+    background-color: rgb(0, 163, 0);
+    float: inline-start;
+}
+#circle_blue{
+
+    background-color: rgb(0, 0, 163);
+    float: right;
+    margin-top: -120px;
+}
